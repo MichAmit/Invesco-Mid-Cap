@@ -1,6 +1,7 @@
 streamlit==1.37.0
 yfinance==0.2.28
-pandas==2.2.2
-numpy==1.26.4
+--find-links https://pypi.org/simple
+numpy<2.0
+pandas<2.3
 requests==2.32.3
 pytz==2024.1
